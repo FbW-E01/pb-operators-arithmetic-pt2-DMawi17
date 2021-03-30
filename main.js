@@ -31,7 +31,9 @@ console.log(`Score in the sixth test: ${x}`);
 //Q12
 const totalScoreOfEightTest = 78 * 8;
 const totalScoreOfNineTest = 80 * 9;
-console.log('James needs a minimum of ' + totalScoreOfEightTest * 100 /totalScoreOfNineTest + '%');
+const jamesScore = totalScoreOfNineTest - totalScoreOfEightTest;
+
+console.log(`James needs a minimum of ${jamesScore}%`);
 
 
 
